@@ -1,0 +1,161 @@
+*{
+    margin: 0.5%;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 2000px;
+}
+.buy-akk{
+left: 68px;
+top: 39px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 37px;
+
+color: #000000;
+}
+hr{
+height: 0px;
+left: 68px;
+top: 103px;
+width: 100%;
+
+border: 1px solid #000000;
+}
+.step-1{
+grid-column-gap: 15px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+
+color: #3B5998;
+}
+.step-2{
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+
+color: #3B5998;
+}
+.step-3{
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+
+
+color: #3B5998;
+}
+.step-4{
+
+margin-top:2% ;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+
+color: #3B5998;
+}
+.steps-1{
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 37px;
+
+color: #000000;
+}
+.pod-steps-1{
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 37px;
+white-space: pre;
+
+color: #FF0000;
+}
+.steps-2{
+
+    white-space:pre;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+
+    
+    color: #000000;
+}
+.steps-3{
+white-space: pre;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+
+color: #000000;
+}
+.steps-4{
+white-space: pre;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+
+color: #000000;
+}
+.mail{
+display: flex;
+margin-top: 10%;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+
+color: #000000;
+
+}
+.phone{
+display: flex;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+margin-top: 2%;
+
+color: #FF0000;
+}
+.dont-buy{
+display: flex;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+margin-top:2%;
+color: #000000;
+}
+.oplata{
+    display: flex;
+    margin-top:2%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+
+color: #000000;
+
+}

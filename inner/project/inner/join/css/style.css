@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+  background: sandybrown;
+}
+.wrapper{
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: Arial;
+  }
+  
+  .ne-header{
+    display: flex;
+    height: 970px;
+      font-family: 'Montserrat', sans-serif;
+      background-image: url(../img/kelvin_17_12385_oboi_skin_avtomata_cs_go_1920x1080.png);
+
+  }
+  .square {
+    box-shadow: 0 0 5px 5px rgb(0, 0, 0, 0.5);
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    margin: auto;
+    border-radius: 50px;
+    opacity: 0;
+    transition: .5s all;
+    animation: show 3s 1;
+    animation-fill-mode: forwards;
+  box-shadow: 0 0 5px 5px rgb(0, 0, 0, 0.5);
+  }
+  .picture{
+     display: flex;
+      height: 45px;
+      width: 50px;
+      margin-left: 20px;
+      margin-top: 30px;
+      /* transition: .5s all; */
+  }
+  .vk{  
+  display: flex;
+  margin-left: 20px;
+  margin-top: -45px;
+  height: 45px;
+  width: 350px;
+  background-color: #6C86AB;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  text-decoration-line: none;
+  /* transition: .5s all; */
+  }
+  
+  
+  .fc{
+    display: flex;
+    margin-left: 20px;
+    margin-top: -45px;
+    height: 45px;
+    width: 350px;
+    background-color: #4C6FB8;
+    border-radius: 20px; 
+    border: none;
+    color: white;
+   justify-content: center;
+   text-decoration-line: none;
+   /* transition: .5s all; */
+  }
+  .steam{
+    display: flex;
+    margin-left: 20px;
+    margin-top: -45px;
+    height: 45px;
+    width: 350px;
+    background-color:black;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    justify-content: center;
+    text-decoration-line: none;
+    /* transition: .5s all; */
+  } 
+  
+  .join{
+    display: flex;
+    justify-content: center;
+    color: orange;
+    text-decoration-line: none;
+    /* transition: .5s all; */
+  }
+  .register{
+    color: orange;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    text-decoration-line: none;
+    /* transition: .5s all; */
+  }
+
+
+  @keyframes show{
+    100%{
+    opacity:1;
+    }
+    100% {
+    opacity:1;
+    }
+    }

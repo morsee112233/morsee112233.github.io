@@ -1,0 +1,1 @@
+$('#click').click(function(){ $('#main').show(); $('#click').hide(); });
