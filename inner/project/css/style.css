@@ -13,13 +13,9 @@ font-family: 'Montserrat', sans-serif;
   width: 1200px;
 }
 .header{
-  display: flex;
   width: 100%;
   height: 215px;
   background-image: url(../img/img.png);
-  background-position: top;
-  background-size: cover;
-  justify-content: center;
   border-bottom: 1px solid black;
 }
 .p-4{
@@ -30,35 +26,10 @@ font-family: 'Montserrat', sans-serif;
   background-color: black;
   opacity: 0.75;
 }
-.reg-menu{
-  display: flex; 
-  margin-left: 15px;
-
-}
-nav{
-  padding: 10px 0 40px 0;
-}
-ul.menu{
-  display: flex;
-}
 
 .text-white{
 margin-left: 10px;
 }
-
-.menu-item:hover{
-  background-size: 100% 2px;
-}
-
-  .nav-menu{
-  display: flex;
-  width: 65px;
-  height: 45px;
-  margin-right: 2.2%;
-  margin-top: 2px;
-  text-decoration: none;
-  font-size: 15px;
-  }
 
 .enter, .registration{
   margin-top: 6%;
@@ -70,6 +41,7 @@ margin-left: 10px;
 .search-rank, .search-prime, .search-inventory {
   margin-top: 10px;
   height: 35px;
+  margin-left: 3px;
 }
 
 .item {
@@ -85,6 +57,7 @@ margin-left: 10px;
 .product-item:hover {border-bottom: 2px solid #fc5a5a;}
 .product-item img {
   display: block;
+  margin-top: 10px;
   width: 100%;
 }
  h3 {
